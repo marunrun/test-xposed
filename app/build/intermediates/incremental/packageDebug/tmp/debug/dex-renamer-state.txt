@@ -1,0 +1,4 @@
+#Tue Jan 05 15:39:25 CST 2021
+base.0=D\:\\code\\testXposed\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

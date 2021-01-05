@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.sky-wei:xposed-common:1.0.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1a91586c1e9e55274a9bf764cb3834e/jetified-xposed-common-1.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1a91586c1e9e55274a9bf764cb3834e/jetified-xposed-common-1.0.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1a91586c1e9e55274a9bf764cb3834e/jetified-xposed-common-1.0.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.sky-wei/xposed-common/1.0.5/855b79f294716c70ad73e90ca50722446316b4d0/xposed-common-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

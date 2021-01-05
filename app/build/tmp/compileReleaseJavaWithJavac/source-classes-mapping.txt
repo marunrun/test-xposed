@@ -1,0 +1,8 @@
+com/example/testxposed/Main.java
+ com.example.testxposed.Main
+ com.example.testxposed.Main$1
+ com.example.testxposed.Main$1$1
+ com.example.testxposed.Main$1$2
+ com.example.testxposed.Main$1$3
+com/example/testxposed/BuildConfig.java
+ com.example.testxposed.BuildConfig

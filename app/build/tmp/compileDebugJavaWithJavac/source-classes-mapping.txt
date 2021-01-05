@@ -1,0 +1,22 @@
+com/example/testxposed/BuildConfig.java
+ com.example.testxposed.BuildConfig
+com/example/testxposed/Constant.java
+ com.example.testxposed.Constant
+ com.example.testxposed.Constant$Color
+ com.example.testxposed.Constant$Name
+ com.example.testxposed.Constant$ShowStart
+ com.example.testxposed.Constant$XFlag
+com/example/testxposed/Main.java
+ com.example.testxposed.Main
+ com.example.testxposed.Main$1
+ com.example.testxposed.Main$1$1
+ com.example.testxposed.Main$1$2
+ com.example.testxposed.Main$1$3
+ com.example.testxposed.Main$1$4
+com/example/testxposed/dialog/PluginDialog.java
+ com.example.testxposed.dialog.PluginDialog
+com/example/testxposed/ActivityPlugin.java
+ com.example.testxposed.ActivityPlugin
+ com.example.testxposed.ActivityPlugin$1
+ com.example.testxposed.ActivityPlugin$2
+ com.example.testxposed.ActivityPlugin$Build
