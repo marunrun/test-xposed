@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -62,19 +63,24 @@ public class ActivityPlugin {
             @Override
             protected void afterHookedMethod(MethodHookParam param) throws Throwable {
                 super.afterHookedMethod(param);
+//                if (timerEnable) {
+//                    XposedBridge.log("res" + param.getResult().toString());
+//                    Log.i(Constant.Name.TITLE,param.getResult().toString());
+//                }
             }
 
             @Override
             protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
                 XposedBridge.log("" + param.args[1]);
+                Log.i(Constant.Name.TITLE,param.args[1].toString());
                 if (timerEnable) {
                     String hour = getDefaultSharedPreferences().getString(Integer.toString(Constant.XFlag.TIMER_HOUR), "");
                     String minute = getDefaultSharedPreferences().getString(Integer.toString(Constant.XFlag.TIMER_MINUTE), "");
                     XposedBridge.log("hour: " + hour);
                     XposedBridge.log("minute: " + minute);
 
-
                     Object arg = param.args[1];
+
 //                    if (arg.toString().contains("order/order")) {
 //                        param.args[1] = "http://10.20.0.20:9504/get";
 //                    }
@@ -83,7 +89,6 @@ public class ActivityPlugin {
                 super.beforeHookedMethod(param);
             }
         });
-
 
     }
 

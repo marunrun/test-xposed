@@ -84,6 +84,13 @@ public class Main implements IXposedHookLoadPackage, MethodHook.ThrowableCallbac
                                 param.setResult(100);
                             }
                         });
+                        XposedHelpers.findAndHookMethod("com.showstartfans.activity.update.UpdateBean", classLoader, "getVersionCode", new XC_MethodHook() {
+                            @Override
+                            protected void afterHookedMethod(MethodHookParam param) throws Throwable {
+                                super.afterHookedMethod(param);
+                                param.setResult("0.1");
+                            }
+                        });
 
                     }
                 });

@@ -75,8 +75,8 @@ public class PluginDialog extends BaseDialogFragment {
         timerMinute.setExtendHint("单位(分)");
 //        frameView.addContent(tvPrompt);
         frameView.addContent(timerEnable);
-        frameView.addContent(timerHour);
-        frameView.addContent(timerMinute);
+//        frameView.addContent(timerHour);
+//        frameView.addContent(timerMinute);
     }
 
 
