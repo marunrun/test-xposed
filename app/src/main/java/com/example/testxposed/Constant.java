@@ -2,7 +2,6 @@ package com.example.testxposed;
 
 public interface Constant {
 
-
     interface ShowStart {
         String PACKAGE_NAME = "com.showstartfans.activity";
     }
